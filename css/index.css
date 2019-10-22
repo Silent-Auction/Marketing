@@ -170,7 +170,7 @@ p {
 }
 .container nav {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: space-between;
@@ -206,8 +206,131 @@ footer {
   align-items: center;
   background: tan;
 }
-.container-home {
+.home {
+  width: 100%;
   background: #d3d3d3;
+}
+.home .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.home .top-content {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+}
+@media (max-width: 800px) {
+  .home .top-content {
+    width: 94%;
+  }
+}
+@media (max-width: 500px) {
+  .home .top-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.home .top-content .buyer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+.home .top-content .buyer h1 {
+  padding-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .home .top-content .buyer {
+    width: 94%;
+  }
+}
+@media (max-width: 500px) {
+  .home .top-content .buyer {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+}
+.home .top-content img {
+  width: 36%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+@media (max-width: 800px) {
+  .home .top-content img {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .home .top-content img {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.home .middle-content {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+  .home .middle-content {
+    width: 94%;
+  }
+}
+@media (max-width: 500px) {
+  .home .middle-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.home .middle-content .seller {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+.home .middle-content .seller h1 {
+  padding-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .home .middle-content .seller {
+    width: 94%;
+  }
+}
+@media (max-width: 500px) {
+  .home .middle-content .seller {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+}
+.home .middle-content img {
+  width: 36%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+@media (max-width: 800px) {
+  .home .middle-content img {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .home .middle-content img {
+    width: 100%;
+    padding: 10px;
+  }
 }
 .home1 {
   width: 100%;

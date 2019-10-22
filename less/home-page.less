@@ -1,6 +1,125 @@
-.container-home {
+.home {
+  width: 100%;
   background: #d3d3d3;
-}
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .top-content {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+
+    @media @tablet {
+      width: 94%;
+    }
+
+    @media @phone {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .buyer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 60px;
+
+      h1 {
+        padding-bottom: 20px;
+      }
+
+      @media @tablet {
+        width: 94%;
+      }
+
+      @media @phone {
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 0px;
+      }
+    }
+
+    img {
+      width: 36%;
+      display: flex;
+      padding-left: 10px;
+      align-items: flex-start;
+      padding-left: 10px;
+
+      @media @tablet {
+        width: 40%;
+      }
+
+      @media @phone {
+        width: 100%;
+        padding: 10px;
+      }
+    } //closes image
+  } //closes top-content
+
+  .middle-content {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    @media @tablet {
+      width: 94%;
+    }
+
+    @media @phone {
+      width: 100%;
+      .phone();
+    }
+
+    .seller {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 60px;
+
+      h1 {
+        padding-bottom: 20px;
+      }
+      @media @tablet {
+        width: 94%;
+      }
+
+      @media @phone {
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 0px;
+      }
+    }
+
+    img {
+      width: 36%;
+      display: flex;
+      padding-left: 10px;
+      align-items: flex-start;
+      padding-left: 10px;
+
+      @media @tablet {
+        width: 40%;
+      }
+
+      @media @phone {
+        width: 100%;
+        padding: 10px;
+      }
+    } //closes image
+  } //closes middle-content
+} //closes home
 
 // ABOUT CSS
 .home1 {
