@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,188 @@
 
     <!-- Import CSS  -->
     <link rel="stylesheet" href="/Marketing/css/index.css" type="text/css">
-    <title>Document</title>
+
+    <!--Import Font Awesome-->
+    <script src="https://kit.fontawesome.com/6de2c13338.js" crossorigin="anonymous"></script>
+
+    <title>Welcome to Silent Auction</title>
 </head>
+
 <body>
 
     <div class="container home">
         <!-- Body Content goes here  -->
 
-         <!-- Nav Content Starts here  -->
+        <!-- Nav Content Starts here  -->
 
-    <nav>
-            <div class="nav-container">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Product</a>
-                <a href="#">Tools</a>
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Silent Auction</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Buy</a>
+                <a href="#">Sell</a>
+                <a href="#">Host</a>
+                <a href="#">Company</a>
+                <a href="#">Support</a>
+                <a href="#">Sign In</a>
             </div>
         </nav>
         <!-- Nav Content ends here  -->
-        <!-- body Content starts here  -->
-        <h1> Welcome to Silent Auction</h1>
-        
 
-        <!-- body content ends here  -->
+        <!-- body Content starts here  -->
+        <header>
+            <div class="header-text">
+                <h1> Welcome to Silent Auction</h1>
+                <h3>Buy Cool Stuff at Auction Prices. <br>
+                    Sell Your stuff and make money.
+                </h3>
+                <h3>Win-Win.</h3>
+            </div>
+            <div class="header-image">
+                <!--Main Image Goes Here-->
+            </div>
+
+        </header>
+        <!--End of Header Content-->
+
+        <!--Categories Section -->
+        <section class="categories">
+
+            <h2>Categories</h2>
+
+            <div class="categories-container">
+                <!--Create Mixin for Categories-->
+                <div class="category-image-box category-image-box-1">
+                    <div class="category_image">
+                        <!--Category Image 1 goes here-->
+                    </div>
+                </div>
+                <div class="category-image-box category-image-box-2">
+                    <div class="category_image">
+                        <!--Category Image 2 goes here-->
+                    </div>
+                </div>
+                <div class="category-image-box category-image-box-3">
+                    <div class="category_image">
+                        <!--Category Image 3 goes here-->
+                    </div>
+                </div>
+                <div class="category-image-box category-image-box-4">
+                    <div class="category_image">
+                        <!--Category Image 4 goes here-->
+                    </div>
+                </div>
+                <div class="category-image-box category-image-box-5">
+                    <div class="category_image">
+                        <!--Category Image 5 goes here-->
+                    </div>
+                </div>
+            </div><!--Categories Container End-->
+        </section>
+
+        <!--What can I do at Silent Auction?-->
+
+        <section class="things-I-can-do">
+            <!--Create Mixin for sections-->
+            <div class="make-bids things">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Make Bids</h3>
+                <div class="make-bids-img">
+                    <!--Image for Make Bids goes here-->
+                </div>
+                <p class="make-bids-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped
+                    to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on
+                    his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?
+                    Well, that's what you see at a toy store. And you must think you're in a toy store, because you're
+                    here shopping for an infant named Jeb. </p>
+            </div>
+
+            <div class="sell-stuff things">
+                <i class="fas fa-caret-square-up"></i>
+
+                <h3>Sell Stuff</h3>
+                <div class="sell-stuff-img">
+                    <!--Image for Sell Stuff goes here-->
+                </div>
+                <p class="sell-stuff-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped
+                    to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on
+                    his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?
+                    Well, that's what you see at a toy store. And you must think you're in a toy store, because you're
+                    here shopping for an infant named Jeb. </p>
+            </div>
+
+            <div class="host auctions things">
+                <i class="fas fa-warehouse"></i>
+                <h3>Host Auctions</h3>
+                <div class="host-auctions-img">
+                    <!--Image for Host Auctions goes here-->
+                </div>
+                <p class="host auctions-text">Do you see any Teletubbies in here? Do you see a slender plastic tag
+                    clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank
+                    expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters
+                    in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store,
+                    because you're here shopping for an infant named Jeb. </p>
+            </div>
+        </section>
+        <!--End of "Things I Can Do" -->
+
+        <!--Call to Action-->
+
+        <section class="home-cta-section">
+            <div class="home-cta-text">
+                <h2>Ready to Silent Auction?</h2>
+            </div>
+            <div class="home-cta">
+                <!--Create Mixin for Button-->
+                <button class="home-cta-button home-cta-buy">Buy</button>
+                <button class="home-cta-button home-cta-sell">Sell</button>
+                <button class="home-cta-button home-cta-host">Host</button>
+            </div>
+        </section>
+        <!--Home CTA Section Ends Here-->
+
+        <footer>
+            <h4>Useful Links</h4>
+
+            <div class="footer-links-container">
+                <div class="home-footer-links">
+                    <strong><a href="#">Home</a></strong>
+                    <a href="#">Buy</a>
+                    <a href="#">Sell</a>
+                    <a href="#">Host</a>
+                </div>
+
+                <div class="company-footer-links">
+                    <strong><a href="#">Company</a></strong>
+                    <a href="#">About US</a>
+                    <a href="#">Services</a>
+                    <a href="#">Press Kit</a>
+                </div>
+                <div class="support-footer-links">
+                    <strong><a href="#">Support</a></strong>
+                    <a href="#">FAQ</a>
+                    <a href="#">Live Chat</a>
+                    <a href="#">Developer</a>
+                </div>
+                <div class="sign-in-footer-links">
+                    <strong><a href="#">Sign In</a></strong>
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Bids</a>
+                    <!-- <a href="#">Host</a> -->
+                </div>
+            </div>
+            <!--End of Footer Links-->
+
+            <p>Made with <i class="fas fa-heart"></i> @ LambdaSchool</p>
+        </footer>
+        <!-- Body Content Ends Here  -->
     </div>
+    <!--Container Ends here-->
+
 </body>
 
 <!-- Optional Javascript Placed here  -->
 <script src="/Marketing/script/script.js"></script>
+
 </html>

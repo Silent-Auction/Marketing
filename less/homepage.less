@@ -1,19 +1,43 @@
 //
 
+
+
+body {
+    /* The background image */
+    background-image: url("/img/home-background-resampled.jpg");
+  
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+  
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+  
+    /* Center the background image */
+    background-position: center;
+  
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+  
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  }
+  
+.container{
+    //background-image
+   // background-image: url(/img/home-background-resampled.jpg);
+   // height: 500px;
+
+}
+
+
+
 .nav-container {
     background-color: @bg-color;
     
     a {
         color: @content-color;
-        font-size: (@font-size * 0.7);
+        font-size: @font-size;
     }
 }
-.container{
-    background-color: @bg-color;
-    height: 100vh;
 
-    h1 {
-        color: @content-color;
-    }
-}
 

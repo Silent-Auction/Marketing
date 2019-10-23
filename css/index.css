@@ -156,36 +156,50 @@ input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+* {
+  border: 1px solid gray;
+}
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-h1,
-h2 {
-  font-size: 4.32rem;
+h1 {
+  font-size: 4.77rem;
 }
-h3,
-h4 {
+h2 {
+  font-size: 3.96rem;
+}
+h3 {
   font-size: 3.33rem;
+}
+h4 {
+  font-size: 2.52rem;
 }
 h5,
 h6 {
-  font-size: 2.43rem;
+  font-size: 1.98rem;
 }
 p {
   font-size: 1.8rem;
+}
+body {
+  /* The background image */
+  background-image: url("/img/home-background-resampled.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
 }
 .nav-container {
   background-color: #0c0a0a;
 }
 .nav-container a {
   color: snow;
-  font-size: 1.26rem;
-}
-.container {
-  background-color: #0c0a0a;
-  height: 100vh;
-}
-.container h1 {
-  color: snow;
+  font-size: 1.8rem;
 }
