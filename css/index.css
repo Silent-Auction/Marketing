@@ -214,7 +214,8 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 .home .top-content {
   width: 100%;
@@ -239,7 +240,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 60px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 .home .top-content .buyer h1 {
   padding-bottom: 20px;
@@ -256,8 +258,29 @@ footer {
     padding-bottom: 0px;
   }
 }
+.home .top-content button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin: 30px;
+  cursor: pointer;
+  height: 45px;
+  color: white;
+}
+.home .top-content button:hover {
+  background-color: #a4d247;
+  color: black;
+}
+.home .top-content a {
+  text-decoration: none;
+}
 .home .top-content img {
-  width: 36%;
+  width: 34%;
   display: flex;
   align-items: flex-start;
   padding-left: 10px;
@@ -272,6 +295,42 @@ footer {
     width: 100%;
     padding: 10px;
   }
+}
+.home .middle-text {
+  padding: 30px;
+}
+.home .middle-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.home .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.home .price {
+  color: grey;
+  font-size: 22px;
+}
+.home .time {
+  color: red;
+}
+.home .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.home .card button:hover {
+  opacity: 0.7;
 }
 .home .middle-content {
   width: 100%;
@@ -315,6 +374,27 @@ footer {
     padding-bottom: 0px;
   }
 }
+.home .middle-content button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin: 30px;
+  cursor: pointer;
+  height: 45px;
+  color: white;
+}
+.home .middle-content button:hover {
+  background-color: #a4d247;
+  color: black;
+}
+.home .middle-content a {
+  text-decoration: none;
+}
 .home .middle-content img {
   width: 36%;
   display: flex;
@@ -331,6 +411,15 @@ footer {
     width: 100%;
     padding: 10px;
   }
+}
+.home .bottom-text {
+  padding: 30px;
+}
+.home .bottom-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .home1 {
   width: 100%;

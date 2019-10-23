@@ -6,7 +6,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
 
   .top-content {
@@ -30,7 +31,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding-left: 60px;
+      padding-left: 40px;
+      padding-right: 20px;
 
       h1 {
         padding-bottom: 20px;
@@ -47,8 +49,29 @@
       }
     }
 
+    button {
+      width: 100%;
+      .flexbox();
+      background: gray;
+      font-size: 2rem;
+      border-radius: 10px;
+      margin: 30px;
+      cursor: pointer;
+      height: 45px;
+      color: white;
+
+      &:hover {
+        background-color: lighten(#9acd32, 5%);
+        color: black;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
     img {
-      width: 36%;
+      width: 34%;
       display: flex;
       padding-left: 10px;
       align-items: flex-start;
@@ -64,6 +87,49 @@
       }
     } //closes image
   } //closes top-content
+
+  .middle-text {
+    padding: 30px;
+  }
+
+  .middle-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .time {
+    color: red;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
 
   .middle-content {
     width: 100%;
@@ -102,6 +168,27 @@
       }
     }
 
+    button {
+      width: 100%;
+      .flexbox();
+      background: gray;
+      font-size: 2rem;
+      border-radius: 10px;
+      margin: 30px;
+      cursor: pointer;
+      height: 45px;
+      color: white;
+
+      &:hover {
+        background-color: lighten(#9acd32, 5%);
+        color: black;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
     img {
       width: 36%;
       display: flex;
@@ -119,6 +206,16 @@
       }
     } //closes image
   } //closes middle-content
+  .bottom-text {
+    padding: 30px;
+  }
+
+  .bottom-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 } //closes home
 
 // ABOUT CSS
