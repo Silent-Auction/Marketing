@@ -217,6 +217,9 @@ footer {
   padding-top: 40px;
   padding-bottom: 60px;
 }
+.home .title h1 {
+  text-shadow: 2px 2px 5px teal;
+}
 .home .top-content {
   width: 100%;
   display: flex;
@@ -245,6 +248,7 @@ footer {
 }
 .home .top-content .buyer h1 {
   padding-bottom: 20px;
+  text-shadow: 2px 2px 5px teal;
 }
 @media (max-width: 800px) {
   .home .top-content .buyer {
@@ -363,6 +367,7 @@ footer {
 }
 .home .middle-content .seller h1 {
   padding-bottom: 20px;
+  text-shadow: 2px 2px 5px teal;
 }
 @media (max-width: 800px) {
   .home .middle-content .seller {
