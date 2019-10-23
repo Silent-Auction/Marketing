@@ -14,4 +14,4 @@ I used Color Hunt for my color pallette.
 
 I used Google fonts for my font choices.
 
-My site was deployed using Netlify. The link is ?.
+My site was deployed using Netlify. The link is https://bw-silent-auction.netlify.com/.

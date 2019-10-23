@@ -217,6 +217,9 @@ footer {
   padding-top: 40px;
   padding-bottom: 60px;
 }
+.home .title h1 {
+  text-shadow: 2px 2px 5px teal;
+}
 .home .top-content {
   width: 100%;
   display: flex;
@@ -245,6 +248,7 @@ footer {
 }
 .home .top-content .buyer h1 {
   padding-bottom: 20px;
+  text-shadow: 2px 2px 5px teal;
 }
 @media (max-width: 800px) {
   .home .top-content .buyer {
@@ -303,13 +307,15 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 .home .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  border: 1px solid gray;
 }
 .home .price {
   color: grey;
@@ -361,6 +367,7 @@ footer {
 }
 .home .middle-content .seller h1 {
   padding-bottom: 20px;
+  text-shadow: 2px 2px 5px teal;
 }
 @media (max-width: 800px) {
   .home .middle-content .seller {
@@ -424,6 +431,9 @@ footer {
 .home1 {
   width: 100%;
 }
+.home1 h1 {
+  text-shadow: 2px 2px 5px teal;
+}
 .home1 .mid-content {
   width: 100%;
   height: 150vh;
@@ -456,6 +466,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  box-shadow: 5px 10px teal;
 }
 .home1 .mid-content .boxes .box h2,
 .home1 .mid-content .boxes .box h5 {
