@@ -1,7 +1,4 @@
 //
-
-
-
 body {
     /* The background image */
     background-image: url("/img/home-background-resampled.jpg");
@@ -20,24 +17,21 @@ body {
   
     /* Scale the background image to be as large as possible */
     background-size: cover;
-  }
-  
-.container{
-    //background-image
-   // background-image: url(/img/home-background-resampled.jpg);
-   // height: 500px;
 
-}
-
-
-
-.nav-container {
-    background-color: @bg-color;
     
-    a {
-        color: @content-color;
-        font-size: @font-size;
-    }
-}
+  } //Body
+  
+  footer {
+    .footer-links-container{
+    display: flex;
+    flex-wrap: wrap;
 
+    .links-column{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    
+    }
+} //footer
 
