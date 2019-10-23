@@ -174,7 +174,7 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: space-between;
-  background: tan;
+  background: #32dbc6;
 }
 @media (max-width: 800px) {
   .container nav {
@@ -204,11 +204,11 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: tan;
+  background: #49beb7;
 }
 .home {
   width: 100%;
-  background: #d3d3d3;
+  background: #ebefd0;
 }
 .home .title {
   width: 100%;
@@ -264,7 +264,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: gray;
+  background: #085f63;
   font-size: 2rem;
   border-radius: 10px;
   margin: 30px;
@@ -273,7 +273,7 @@ footer {
   color: white;
 }
 .home .top-content button:hover {
-  background-color: #a4d247;
+  background-color: #5cc5be;
   color: black;
 }
 .home .top-content a {
@@ -380,7 +380,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: gray;
+  background: #085f63;
   font-size: 2rem;
   border-radius: 10px;
   margin: 30px;
@@ -389,7 +389,7 @@ footer {
   color: white;
 }
 .home .middle-content button:hover {
-  background-color: #a4d247;
+  background-color: #5cc5be;
   color: black;
 }
 .home .middle-content a {
@@ -427,7 +427,7 @@ footer {
 .home1 .mid-content {
   width: 100%;
   height: 150vh;
-  background: gray;
+  background: #ebefd0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -450,7 +450,7 @@ footer {
   width: 30%;
   margin: 2% 0;
   border-radius: 15px;
-  background: tan;
+  background: #57a99a;
   border: 2px solid white;
   display: flex;
   flex-direction: column;
