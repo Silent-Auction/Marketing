@@ -303,6 +303,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 .home .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -310,6 +311,7 @@ footer {
   margin: auto;
   text-align: center;
   font-family: arial;
+  border: 1px solid gray;
 }
 .home .price {
   color: grey;

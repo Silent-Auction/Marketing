@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  background: #ebefd0;
+  background: @bg-color;
 
   .title {
     width: 100%;
@@ -52,7 +52,7 @@
     button {
       width: 100%;
       .flexbox();
-      background: #085f63;
+      background: @btn-bg;
       font-size: 2rem;
       border-radius: 10px;
       margin: 30px;
@@ -96,6 +96,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   .card {
@@ -104,6 +105,7 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    border: 1px solid gray;
   }
 
   .price {
@@ -171,7 +173,7 @@
     button {
       width: 100%;
       .flexbox();
-      background: #085f63;
+      background: @btn-bg;
       font-size: 2rem;
       border-radius: 10px;
       margin: 30px;
@@ -225,7 +227,7 @@
   .mid-content {
     width: 100%;
     height: 150vh;
-    background: #ebefd0;
+    background: @bg-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
